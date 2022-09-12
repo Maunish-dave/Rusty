@@ -5,3 +5,4 @@ All the resources you need to learn rust
 
 1. [Rust book](https://doc.rust-lang.org/book/ch01-00-getting-started.html) 
 2. [Learn rust](https://www.rust-lang.org/learn)
+3. [Cargo](https://doc.rust-lang.org/cargo/)

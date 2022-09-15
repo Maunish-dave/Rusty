@@ -165,11 +165,11 @@ fn main() {
     //     println!("{}",i);
     // }
 
-    // for number in (1..4).rev(){
-    //     println!("{number}");
-    // }
+    for number in (1..4).rev(){
+        println!("{number}");
+    }
 
-    // println!("LIFTOFF!");
+    println!("LIFTOFF!");
 
 }
 

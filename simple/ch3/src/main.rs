@@ -79,31 +79,121 @@ fn main() {
     // let x = function_that_returns(10);
     // println!("The value of x is {x}");
 
-    
+    // let number = 100;
+
+    // if number < 150 {
+    //     println!("contion satisfied");
+    // }
+    // else {
+    //     println!("condition not satisfied");
+    // }
+
+    // let condition = false;
+
+    // let number = if condition {5} else {6};
+
+    // println!("{}", number);
+
+    // let mut x = 1;
+
+    // loop {
+    //     println!(" print this" );
+    //     x = x + 1;
+    //     if x == 100{
+    //         break;
+    //     }
+    // }
+
+    // let mut cnt = 0;
+
+    // let result = loop {
+    //     cnt += 1;
+
+    //     if cnt == 100 {
+    //         break cnt * 2;
+    //     }
+    // };
+
+    // println!("{} is the value",result);
+
+    // let mut count = 0;
+
+    // 'counting_up: loop {
+    //     println!("coun = {count}");
+
+    //     let mut remaining = 10;
+
+    //     loop {
+    //         println!("remaining = {remaining}");
+
+    //         if remaining == 9 {
+    //             break;
+    //         }
+
+    //         if count == 2{
+    //             break 'counting_up;
+    //         }
+            
+    //         remaining -= 1;
+    //     }
+
+    //     count +=1;
+    // }
+
+    // println!("Ent count = {count}");
+
+    // let mut number = 3;
+
+    // while number != 0 {
+    //     println!("{number}");
+
+    //     number -= 1;
+    // }
+
+    // println!("LIFTOFF!!!");
+
+    // let a = [1,2,3,4,5,6];
+    // let mut index = 0;
+
+    // while index < a.len() {
+    //     println!("value of arr{index} is {}",a[index]);
+    //     index += 1;
+    // }
+
+    // let a = [1,2,3,4,5,6,7];
+    // for i in a {
+    //     println!("{}",i);
+    // }
+
+    // for number in (1..4).rev(){
+    //     println!("{number}");
+    // }
+
+    // println!("LIFTOFF!");
 
 }
 
-fn function() {
-    println!("This is another function")
-}
-
-fn just_a_function(value: u32, ch: char){
-    println!("Just a function {value} and {ch}");
-}
-
-// fn wrong_function(){
-//     let x = let y = 6;
+// fn function() {
+//     println!("This is another function")
 // }
 
-fn right_function(){
-    let x = {
-        let y = 100;
-        y + 100
-    };
+// fn just_a_function(value: u32, ch: char){
+//     println!("Just a function {value} and {ch}");
+// }
 
-    println!{"The value of x is {x}"}
-}
+// // fn wrong_function(){
+// //     let x = let y = 6;
+// // }
 
-fn function_that_returns(val: u32) -> u32 {
-    val
-}
+// fn right_function(){
+//     let x = {
+//         let y = 100;
+//         y + 100
+//     };
+
+//     println!{"The value of x is {x}"}
+// }
+
+// fn function_that_returns(val: u32) -> u32 {
+//     val
+// }
